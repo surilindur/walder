@@ -28,7 +28,7 @@ describe('GraphQLLDParser', function () {
           "cache": true,
           "comunicaConfig": {
             "sources": [
-              "http://fragments.dbpedia.org/2016-04/en"
+              "https://fragments.dbpedia.org/2016-04/en"
             ],
             "lenient": false
           },
@@ -56,7 +56,7 @@ describe('GraphQLLDParser', function () {
           "cache": true,
           "comunicaConfig": {
             "sources": [
-              "http://fragments.dbpedia.org/2016-04/en"
+              "https://fragments.dbpedia.org/2016-04/en"
             ],
             "lenient": false
           },
@@ -100,7 +100,7 @@ describe('GraphQLLDParser', function () {
           "cache": true,
           "comunicaConfig": {
             "sources": [
-              "http://fragments.dbpedia.org/2016-04/en"
+              "https://fragments.dbpedia.org/2016-04/en"
             ],
             "lenient": false
           },
@@ -139,7 +139,7 @@ describe('GraphQLLDParser', function () {
           "cache": true,
           "comunicaConfig": {
             "sources": [
-              "http://fragments.dbpedia.org/2016-04/en"
+              "https://fragments.dbpedia.org/2016-04/en"
             ],
             "lenient": false
           },
@@ -164,7 +164,7 @@ describe('GraphQLLDParser', function () {
       this.lenientOutput.should.have.deep.own.property("comunicaConfig",
         {
           "sources": [
-            "http://fragments.dbpedia.org/2016-04/en"
+            "https://fragments.dbpedia.org/2016-04/en"
           ],
           "lenient": true
         }

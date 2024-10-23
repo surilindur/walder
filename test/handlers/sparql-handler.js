@@ -274,7 +274,7 @@ describe('SPARQLHandler', function () {
       },
       "comunicaConfig": {
         "sources": [
-          "http://fragments.dbpedia.org/2016-04/en",
+          "https://fragments.dbpedia.org/2016-04/en",
         ]
       },
       "jsonldFrame": `{

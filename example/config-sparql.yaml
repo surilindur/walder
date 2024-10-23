@@ -8,7 +8,7 @@ x-walder-resources:
   pipe-modules: pipeModules
   public: public
 x-walder-datasources:
-  - http://fragments.dbpedia.org/2016-04/en
+  - https://fragments.dbpedia.org/2016-04/en
 paths:
   /:
     get:
